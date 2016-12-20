@@ -1,0 +1,31 @@
+{
+  "name": "pastry-js",
+  "version": "1.0.0",
+  "description": "pastry-js 模版工程",
+  "main": "./lib/main.js",
+  "bin": {
+    "pastry-js": "./bin/pastry-js"
+  },
+  "repository": "https://github.com/pastryTeam/www-template.git",
+  "author": "pastryTeam",
+  "license": "",
+  "scripts": {
+    "build": "gulp"
+  },
+  "dependencies": {
+  	"bower": "1.7.9",
+    "lodash": "^1.0.0",
+    "colors": "^1.0.0",
+    "archiver": "^1.2.0",
+    "argparse": "1.0.2",
+    "cheerio": "0.20.0",
+    "clean-css": "^3.4.21",
+    "cordova": "5.4.1",
+    "fs-extra": "0.26.3",
+    "html-minifier": "^3.2.3",
+    "moment": "^2.17.1",
+    "q": "2.0.3",
+    "uglify-js": "^2.7.5",
+    "underscore": "1.8.3"
+  }
+}
